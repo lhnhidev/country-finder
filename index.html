@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Finder</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/logo-website.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+
+        <h2 class="title">Country Info Finder</h2>
+        
+        <div class="search-box">
+            <input list="countries" class="search__input" type="text" id="input" placeholder="Nhập tên Quốc gia">
+            <datalist id="countries"></datalist>
+            <button class="search__button" id="find">Find</button>
+        </div>
+        
+        <div class="content" id="content"></div>
+
+        <p class="copyright">&copy; Copyright by lhnhidev</p>
+
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
