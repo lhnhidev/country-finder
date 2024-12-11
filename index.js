@@ -46,7 +46,7 @@ async function renderCountry() {
                     <img src="${data.flags.png}" alt="Image of country" class="col-6 content__flag">
     
                     </div>
-                <p class="content__description"></p>
+                <p class="content__description">${data.flags.alt}</p>
             </div>
     
             <p class="content__capital bold-para">Thủ đô: <span class="normal-para">${data.capital}</span></p>
